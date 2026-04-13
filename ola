@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Night Festival</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🎵 Music Night Festival</h1>
+    <p>O maior festival do ano</p>
+</header>
+
+    <h2>Prepare-se para a melhor noite da sua vida</h2>
+    <p>Shows incríveis, energia única e muita música!</p>
+    <button>Comprar Ingresso</button>
+
+    <h2>Line-up</h2>
+<nav>
+        <a href="artist">DJ nathi</a>
+        <a href="artist">MC Lula</a>
+        <a href="artist">Mc jair bolsonario</a>
+        <a href="artist">Mc Chupetinha</a>
+ </nav>
+</section>
+
+<section class="schedule">
+    <h2>Programação</h2>
+
+    <table>
+        <tr>
+            <th>Horário</th>
+            <th>Artista</th>
+        </tr>
+        <tr>
+            <td>18:00</td>
+            <td>DJ Alpha</td>
+        </tr>
+        <tr>
+            <td>20:00</td>
+            <td>MC Beats</td>
+        </tr>
+        <tr>
+            <td>22:00</td>
+            <td>Rock Band X</td>
+        </tr>
+        <tr>
+            <td>00:00</td>
+            <td>Pop Star Y</td>
+        </tr>
+    </table>
+</section>
+
+
+</body>
+</html>
