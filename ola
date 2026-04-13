@@ -1,60 +1,64 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Music Night Festival</title>
-
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<header>
-    <h1>🎵 Music Night Festival</h1>
-    <p>O maior festival do ano</p>
-</header>
-
-    <h2>Prepare-se para a melhor noite da sua vida</h2>
-    <p>Shows incríveis, energia única e muita música!</p>
-    <button>Comprar Ingresso</button>
-
-    <h2>Line-up</h2>
-<nav>
-        <a href="artist">DJ nathi</a>
-        <a href="artist">MC Lula</a>
-        <a href="artist">Mc jair bolsonario</a>
-        <a href="artist">Mc Chupetinha</a>
- </nav>
-</section>
-
-<section class="schedule">
-    <h2>Programação</h2>
-
-    <table>
-        <tr>
-            <th>Horário</th>
-            <th>Artista</th>
-        </tr>
-        <tr>
-            <td>18:00</td>
-            <td>DJ Alpha</td>
-        </tr>
-        <tr>
-            <td>20:00</td>
-            <td>MC Beats</td>
-        </tr>
-        <tr>
-            <td>22:00</td>
-            <td>Rock Band X</td>
-        </tr>
-        <tr>
-            <td>00:00</td>
-            <td>Pop Star Y</td>
-        </tr>
-    </table>
-</section>
 
 
-</body>
-</html>
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: #ff0080;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    margin-bottom: 10px;
+}
+
+
+button {
+    background: #ff0080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background: #cc0066;
+}
+
+
+.palco {
+    margin-top: 20px;
+}
+
+/* Cada artista */
+.palco {
+    background: #222;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Tabela */
+table {
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+
+td, th {
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background: #ff0080;
+}
